@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    background-color: #22333d;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+
+.gg {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.gg-symbol {
+    height: 14px;
+    width: 14px;
+    background: #969696;
+    margin-right: 14px;
+    border-radius: 10px;
+}
+
+.gg-symbol--rect {
+    background: linear-gradient(90deg, rgb(100, 145, 214) 0%, rgb(67, 240, 199) 100%);
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.gg-gradient--purple {
+    background: linear-gradient(90deg, rgb(242, 159, 255) 0%, rgb(124, 153, 255) 100%);
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.gg-symbol--2 {
+    width: 80px;
+}
+
+.gg-symbol--3 {
+    width: 184px;
+}
+
+.gg-symbol--5 {
+    width: 140px;
+}
+
+.gg-symbol--8 {
+    width: 210px;
+}
+
+.gg-symbol--disc {
+    border-radius: 50%;
+}
+
+.indent {
+    margin-left: 50px;
+}
+
+.home-titles {
+    margin-bottom: 1.4rem;
+    margin-left: 5rem;
+}
+
+.main-title {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.sub-title {
+    
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+
+footer {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    transform: rotate(-90deg) translate(100%);
+    transform-origin: bottom right;
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #eee;
+}
