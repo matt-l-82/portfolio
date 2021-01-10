@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 2rem 0;
+    border-bottom: 1px solid #fff;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
@@ -11,18 +18,28 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.section {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
 header {
-    position: relative;
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-}
-
-.home-content {
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translateY(-50%);
 }
 
 .gg {
@@ -84,33 +101,125 @@ header {
     font-weight: 500;
 }
 
-.sub-title {
-    
+.sub-title { 
     font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 300;
 }
 
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.83rem;
+}
+
+.card {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+ 
+ul li {
+    width: 49.5%;
+}
+
+.buttons {
+    display: flex;
+}
+
+button {
+    width: 50%;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.website {
+    background: linear-gradient(90deg, rgb(100, 145, 214) 0%, rgb(67, 240, 199) 100%);
+}
+
+.github {
+    background: linear-gradient(90deg, rgb(242, 159, 255) 0%, rgb(124, 153, 255) 100%);
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+.btn i {
+    margin-right: .5rem;
+}
+
+.btn:hover {
+    color: #333;
+}
+
+.card p {
+    padding: 2rem 0;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+/* CONTACT DETAILS*/
+
+.contact-details {
+    padding-top: 2.83rem;
+    padding-bottom: 2.83rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.phone, .email {
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 1rem 0 1rem 0;
+}
+
+.phone a, .email a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.phone i, .email i {
+    margin-right: .5rem;
+}
+
+
+/* FOOTER STYLES */
 
 footer {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    transform: rotate(-90deg) translate(100%);
-    transform-origin: bottom right;
-    font-size: 14px;
+    padding: 2rem 1rem;
+    text-align: center;
 }
 
-footer ul {
-    list-style: none;
+footer p {
+    font-size: 1.2em;
 }
 
-footer ul li {
-    display: inline-block;
-    padding: 0 10px;
+footer i {
+    color: red;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
 
-footer ul li a {
-    text-decoration: none;
-    color: #eee;
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    ul li {
+        width: 100%;
+    }
 }
