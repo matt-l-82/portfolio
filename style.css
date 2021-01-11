@@ -216,19 +216,21 @@ footer i {
 
 @media screen and (max-width: 768px) {
 
-    .wrap {
-        flex-wrap: wrap;
-    }
-    
     .main-title {
         font-size: 3rem;
         font-weight: 500;
     }
-
+    
     .sub-title { 
         font-size: 1.6rem;
-        letter-spacing: 2px;
-        font-weight: 300;
+    }
+
+    .cards:not(:first-child) {
+        margin-top: 0;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
     }
 
     ul li {
