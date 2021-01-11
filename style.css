@@ -215,6 +215,10 @@ footer i {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
+
+    .wrap {
+        flex-wrap: wrap;
+    }
     
     .main-title {
         font-size: 3rem;
