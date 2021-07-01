@@ -1,239 +1,266 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 h2 {
-    font-size: 3rem;
-    font-weight: 500;
-    padding: 2rem 0;
-    border-bottom: 1px solid #fff;
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 2rem 0;
+  border-bottom: 1px solid #fff;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    background-color: #22333d;
-    color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  background-color: #22333d;
+  color: rgb(255, 255, 255);
 }
 
 .section {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 .5rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
 }
 
 img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .gg {
-    display: flex;
-    margin-bottom: 10px;
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .gg-symbol {
-    height: 14px;
-    width: 14px;
-    background: #969696;
-    margin-right: 14px;
-    border-radius: 10px;
+  height: 14px;
+  width: 14px;
+  background: #969696;
+  margin-right: 14px;
+  border-radius: 10px;
 }
 
 .gg-symbol--rect {
-    background: linear-gradient(90deg, rgb(100, 145, 214) 0%, rgb(67, 240, 199) 100%);
-    opacity: 1;
-    transform: translate(0px, 0px);
+  background: linear-gradient(
+    90deg,
+    rgb(100, 145, 214) 0%,
+    rgb(67, 240, 199) 100%
+  );
+  opacity: 1;
+  transform: translate(0px, 0px);
 }
 
 .gg-gradient--purple {
-    background: linear-gradient(90deg, rgb(242, 159, 255) 0%, rgb(124, 153, 255) 100%);
-    opacity: 1;
-    transform: translate(0px, 0px);
+  background: linear-gradient(
+    90deg,
+    rgb(242, 159, 255) 0%,
+    rgb(124, 153, 255) 100%
+  );
+  opacity: 1;
+  transform: translate(0px, 0px);
 }
 
 .gg-symbol--2 {
-    width: 80px;
+  width: 80px;
 }
 
 .gg-symbol--3 {
-    width: 184px;
+  width: 184px;
 }
 
 .gg-symbol--5 {
-    width: 140px;
+  width: 140px;
 }
 
 .gg-symbol--8 {
-    width: 210px;
+  width: 210px;
 }
 
 .gg-symbol--disc {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .indent {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .home-titles {
-    margin-bottom: 1.4rem;
-    margin-left: 5rem;
+  margin-bottom: 1.4rem;
+  margin-left: 5rem;
 }
 
 .main-title {
-    font-size: 4rem;
-    font-weight: 500;
+  font-size: 4rem;
+  font-weight: 500;
 }
 
-.sub-title { 
-    font-size: 2rem;
-    letter-spacing: 2px;
-    font-weight: 300;
+.sub-title {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 50%;
+  bottom: 3%;
+  transform: translate(-50%, -50%);
 }
 
 .cards {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2.83rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.83rem;
 }
 
 .card {
-    display: inline-block;
+  display: inline-block;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
- 
+
 ul li {
-    width: 49.5%;
+  width: 49.5%;
 }
 
 .buttons {
-    display: flex;
+  display: flex;
 }
 
 button {
-    width: 50%;
-    padding: 1rem;
-    border: none;
-    cursor: pointer;
+  width: 50%;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
 }
 
 .website {
-    background: linear-gradient(90deg, rgb(100, 145, 214) 0%, rgb(67, 240, 199) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(100, 145, 214) 0%,
+    rgb(67, 240, 199) 100%
+  );
 }
 
 .github {
-    background: linear-gradient(90deg, rgb(242, 159, 255) 0%, rgb(124, 153, 255) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(242, 159, 255) 0%,
+    rgb(124, 153, 255) 100%
+  );
 }
 
 .btn {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    text-transform: uppercase;
-    transition: all .2s ease;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
 }
 
 .btn i {
-    margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .btn:hover {
-    color: #333;
+  color: #333;
 }
 
 .card p {
-    padding: 2rem 0;
-    font-size: 1.4em;
-    font-weight: 400;
+  padding: 2rem 0;
+  font-size: 1.4em;
+  font-weight: 400;
 }
 
 /* CONTACT DETAILS*/
 
 .contact-details {
-    padding-top: 2.83rem;
-    padding-bottom: 2.83rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
+  padding-top: 2.83rem;
+  padding-bottom: 2.83rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
 }
 
-.phone, .email {
-    font-size: 1.8em;
-    font-weight: 400;
-    margin: 1rem 0 1rem 0;
+.phone,
+.email {
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 1rem 0 1rem 0;
 }
 
-.phone a, .email a {
-    color: #fff;
-    text-decoration: none;
+.phone a,
+.email a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.phone i, .email i {
-    margin-right: .5rem;
+.phone i,
+.email i {
+  margin-right: 0.5rem;
 }
-
 
 /* FOOTER STYLES */
 
 footer {
-    padding: 2rem 1rem;
-    text-align: center;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
 footer p {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 footer i {
-    color: red;
-    margin-left: 0.3rem;
-    margin-right: 0.3rem;
+  color: red;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
 }
-
-
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 3rem;
+    font-weight: 500;
+  }
 
-    .main-title {
-        font-size: 3rem;
-        font-weight: 500;
-    }
-    
-    .sub-title { 
-        font-size: 1.6rem;
-    }
+  .sub-title {
+    font-size: 1.6rem;
+  }
 
-    .cards:not(:first-child) {
-        margin-top: 0;
-    }
+  .cards:not(:first-child) {
+    margin-top: 0;
+  }
 
-    .wrap {
-        flex-wrap: wrap;
-    }
+  .wrap {
+    flex-wrap: wrap;
+  }
 
-    ul li {
-        width: 100%;
-    }
+  ul li {
+    width: 100%;
+  }
 }
